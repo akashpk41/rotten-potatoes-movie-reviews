@@ -11,7 +11,7 @@ const Homepage = () => {
     <div>
       <Header />
       {/* movie review section  */}
-      <div className=" text-center border-2  border-red-400 p-3 rounded-lg shadow-2xl my-7 ">
+      <div className=" text-center border-2 bg-teal-100  border-red-400 p-3 rounded-lg shadow-2xl my-7 ">
         <h2 className="text-2xl font-semibold  ">
           {" "}
           Top Reviews{" "}

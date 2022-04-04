@@ -1,7 +1,8 @@
 import React from "react";
+import {  StarIcon } from '@heroicons/react/solid'
 
 const ReviewCard = ({ review }) => {
-  const { name, comment,image } = review;
+  const { name, comment,image,rating } = review;
   // console.log(review);
 
   return (
@@ -14,6 +15,9 @@ const ReviewCard = ({ review }) => {
         />
         <h5 class="mb-1 text-xl font-medium text-gray-900 ">
          {name}
+        </h5>
+        <h5 class="mb-1 text-base flex font-medium text-gray-900 ">
+        Ratings : {rating}  <StarIcon className="h-5 ml-1 mt-1 w-5 text-yellow-500"/>
         </h5>
         <span class="text-sm text-gray-600 ">
          {comment.slice(0,200) +'...'  }
