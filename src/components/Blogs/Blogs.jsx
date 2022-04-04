@@ -2,8 +2,8 @@ import React from "react";
 
 const Blogs = () => {
   return (
-    <div className=" my-10 p-3 md:w-4/5 md:mx-auto border-2 border-red-300 ">
-      <div className="border-2 p-2 border-green-300">
+    <div className=" my-10 p-3 md:w-4/5 md:mx-auto  ">
+      <div className="shadow-lg rounded-lg p-2 ">
         <h1 className=" text-2xl text-center font-bold underline   p-3 ">
           {" "}
           What is Semantic Tag{" "}
@@ -19,7 +19,7 @@ const Blogs = () => {
           Section .{" "}
         </p>
       </div>
-      <div className="border-2 p-2 border-blue-300">
+      <div className=" shadow-2xl rounded-lg mt-5 p-2 ">
         <h1 className=" text-2xl text-center font-bold underline  p-3 ">
           {" "}
           What is the purpose of Context API{" "}
