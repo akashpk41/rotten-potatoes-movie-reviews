@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Blogs from "./components/Blogs/Blogs";
+import Chart from "./components/Chart/Chart";
 import Dashboard from "./components/Dashboard/Dashboard";
 import Footer from "./components/Footer/Footer";
 import Homepage from "./components/Home/Homepage";
@@ -15,7 +16,7 @@ function App() {
         <Route path="/" element={ <Homepage /> } />
         <Route path="/home" element={ <Homepage /> } />
         <Route path="/reviews" element={ <Reviews />  } />
-        <Route path="/dashboard" element={ <Dashboard />  } />
+        <Route path="/dashboard" element={ <Chart />  } />
         <Route path="/blogs" element={ <Blogs /> } />
         <Route path="*" element={ <NotFound /> } />
       </Routes>

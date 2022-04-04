@@ -1,11 +1,20 @@
-import React from 'react';
+import React from "react";
+import Chart from "../Chart/Chart";
+import Example from "../Chart/Chart";
 
 const Dashboard = () => {
-     return (
-          <div>
-                <h1 className=' text-2xl text-center bg-blue-300 p-3 ' > Iam Dashboard   </h1>
-          </div>
-     );
+
+
+  return (
+    <div className=" flex   p-3 ">
+      {/* <div className="left-side border-2 mr-2 p-1 border-green-500 "> */}
+     <Chart />
+      {/* </div> */}
+      {/* <div className="right-side border-2 p-1 border-yellow-500 "> */}
+
+      {/* </div> */}
+    </div>
+  );
 };
 
 export default Dashboard;
