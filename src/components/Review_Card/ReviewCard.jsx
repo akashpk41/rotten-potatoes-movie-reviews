@@ -17,7 +17,7 @@ const ReviewCard = ({ review }) => {
          {name}
         </h5>
         <h5 class="mb-1 text-base flex font-medium text-gray-900 ">
-        Ratings : {rating}  <StarIcon className="h-5 ml-1 mt-1 w-5 text-yellow-500"/>
+        Ratings : {rating}  <StarIcon className="h-5 ml-1 md:mt-1 w-5 text-yellow-500"/>
         </h5>
         <span class="text-sm text-gray-600 ">
          {comment.slice(0,200) +'...'  }
