@@ -1,10 +1,24 @@
+import { Route, Routes } from "react-router-dom";
+import Blogs from "./components/Blogs/Blogs";
+import Dashboard from "./components/Dashboard/Dashboard";
+import Homepage from "./components/Home/Homepage";
 import Navbar from "./components/Navbar/Navbar";
+import NotFound from "./components/Not_Found/NotFound";
+import Reviews from "./components/Reviews/Reviews";
 
 function App() {
   return (
-    <div className="">
+    <>
       <Navbar />
-    </div>
+      <Routes>
+        <Route path="/" element={ <Homepage /> } />
+        <Route path="/home" element={ <Homepage /> } />
+        <Route path="/reviews" element={ <Reviews />  } />
+        <Route path="/dashboard" element={ <Dashboard />  } />
+        <Route path="/blogs" element={ <Blogs /> } />
+        <Route path="*" element={ <NotFound /> } />
+      </Routes>
+    </>
   );
 }
 

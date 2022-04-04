@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="bg-green-200 border-gray-200 px-2 sm:px-4 py-2.5 rounded ">
+    <nav className="bg-yellow-100 border-gray-200 px-2 sm:px-4 py-2.5 rounded ">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <Link to="/" className="flex items-center">
-          <span className="self-center text-2xl text-violet-900 whitespace-nowrap font-mono font-bold uppercase  dark:text-white">
+          <span className="self-center text-2xl text-violet-900 whitespace-nowrap font-mono font-bold uppercase  ">
             {" "}
-            Rotten Tomatoes{" "}
+            Rotten Potatoes{" "}
           </span>
         </Link>
         <div className="flex md:order-2">
@@ -16,7 +16,7 @@ const Navbar = () => {
             type="button"
             className="text-white hidden md:block bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
-           View More
+            View More
           </button>
           <button
             data-collapse-toggle="mobile-menu-4"
